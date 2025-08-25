@@ -1,5 +1,5 @@
 
-import type { Metadata } from 'next';
+import type { Metadata, ResolvingMetadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Card, CardContent } from '@/components/ui/card';
 import { ArrowLeft, CalendarDays, UserCircle } from 'lucide-react';
@@ -560,10 +560,6 @@ const postsData = [
   }
 ];
 
-interface PostPageParams {
-  slug: string;
-}
-
 function getPostBySlug(slug: string) {
   return postsData.find((post) => post.slug === slug);
 }
@@ -574,8 +570,16 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: { params: PostPageParams }): Promise<Metadata> {
-  const post = getPostBySlug(params.slug);
+type PageProps = {
+  params: Promise<{ slug: string }>;
+};
+
+export async function generateMetadata(
+  { params }: PageProps,
+  _parent: ResolvingMetadata
+): Promise<Metadata> {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
 
   if (!post) {
     return {
@@ -593,8 +597,9 @@ export async function generateMetadata({ params }: { params: PostPageParams }): 
   };
 }
 
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  const post = getPostBySlug(params.slug);
+export default async function BlogPostPage({ params }: PageProps) {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
 
   if (!post) {
     notFound(); 
