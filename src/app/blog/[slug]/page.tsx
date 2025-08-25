@@ -593,7 +593,7 @@ export async function generateMetadata({ params }: { params: PostPageParams }): 
   };
 }
 
-export default function BlogPostPage({ params }: { params: PostPageParams }) {
+export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const post = getPostBySlug(params.slug);
 
   if (!post) {
