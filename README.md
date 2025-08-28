@@ -1,8 +1,4 @@
 
-<div align="center">
-  <img src="public/infiniteo.png" alt="Infiniteo Logo" width="400"/>
-</div>
-
 <h1 align="center">Infiniteo: Automation Workflow Services</h1>
 
 <div align="center">
@@ -26,6 +22,10 @@
 Infiniteo is the next-generation automation service partner for businesses and professionals ready to break free from manual workflows. By seamlessly integrating with every digital channel—from social content scheduling to CRM updates and custom multi-step routines—Infiniteo empowers teams of all sizes to deploy reliable, secure, and infinitely scalable solutions.
 
 We believe every organization deserves the freedom to focus on strategic vision rather than operational drudgery. Our intuitive, platform-agnostic approach unifies fragmented processes into elegant, automated workflows, enabling you to reclaim time, drive innovation, and propel growth without compromise.
+
+<div align="center">
+  <img src="public/infiniteo.png" alt="Infiniteo Logo" width="400"/>
+</div>
 
 ## ✨ Key Features & Services
 
