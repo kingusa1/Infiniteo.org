@@ -10,6 +10,12 @@ interface PostPageParams {
   slug: string;
 }
 
+interface PageProps {
+  params: {
+    slug: string;
+  };
+}
+
 function getPostBySlug(slug: string) {
   return postsData.find((post) => post.slug === slug);
 }
@@ -39,7 +45,7 @@ export async function generateMetadata({ params }: { params: PostPageParams }): 
   };
 }
 
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
+export default function BlogPostPage({ params }: PageProps) {
   const post = getPostBySlug(params.slug);
 
   if (!post) {
