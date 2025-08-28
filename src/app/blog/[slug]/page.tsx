@@ -1,12 +1,12 @@
 
-import type { Metadata, ResolvingMetadata } from 'next';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Card, CardContent } from '@/components/ui/card';
 import { ArrowLeft, CalendarDays, UserCircle } from 'lucide-react';
 import Link from 'next/link';
 
 // Placeholder data for blog posts.
-const postsData = [
+export const postsData = [
   {
     slug: 'automating-social-content-curation',
     title: 'Automating Social Media Content Curation: Finding and Sharing Value',
@@ -560,6 +560,10 @@ const postsData = [
   }
 ];
 
+interface PostPageParams {
+  slug: string;
+}
+
 function getPostBySlug(slug: string) {
   return postsData.find((post) => post.slug === slug);
 }
@@ -570,16 +574,8 @@ export async function generateStaticParams() {
   }));
 }
 
-type PageProps = {
-  params: Promise<{ slug: string }>;
-};
-
-export async function generateMetadata(
-  { params }: PageProps,
-  _parent: ResolvingMetadata
-): Promise<Metadata> {
-  const { slug } = await params;
-  const post = getPostBySlug(slug);
+export async function generateMetadata({ params }: { params: PostPageParams }): Promise<Metadata> {
+  const post = getPostBySlug(params.slug);
 
   if (!post) {
     return {
@@ -597,9 +593,8 @@ export async function generateMetadata(
   };
 }
 
-export default async function BlogPostPage({ params }: PageProps) {
-  const { slug } = await params;
-  const post = getPostBySlug(slug);
+export default function BlogPostPage({ params }: { params: { slug: string } }) {
+  const post = getPostBySlug(params.slug);
 
   if (!post) {
     notFound(); 
