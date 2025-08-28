@@ -8,7 +8,7 @@
 <div align="center">
   <p><strong>Liberate your business from archaic, manual workflows. Achieve unbounded evolution with our limitless, intuitive automation services.</strong></p>
   <p>
-    <a href="https://infiniteo.tech" target="_blank"><strong>Explore the Live Site »</strong></a>
+    <a href="https://infiniteo.org" target="_blank"><strong>Explore the Live Site »</strong></a>
   </p>
 </div>
 
@@ -77,4 +77,3 @@ To get a local copy up and running, follow these simple steps.
 
 ---
 <p align="center">Empowering Business Evolution, Without Limits.</p>
-
