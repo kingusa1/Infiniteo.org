@@ -1,6 +1,8 @@
 import type { MetadataRoute } from 'next';
 import { postsData } from './blog/[slug]/page'; // Assuming postsData is exported and accessible
 
+export const dynamic = 'force-static';
+
 const BASE_URL = 'https://www.infiniteo.org';
 
 export default function sitemap(): MetadataRoute.Sitemap {
