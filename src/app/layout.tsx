@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description: 'Empowering every organization and individual with limitless, intuitive automation solutions—driving efficiency, innovation, and seamless operations across all digital channels.',
   keywords: ['automation', 'B2B SaaS', 'workflow automation', 'CRM integration', 'social media automation', 'digital platform automation', 'custom workflows', 'Infiniteo'],
   icons: {
-    icon: '/infiniteo.org/infiniteo.png',
+    icon: '/infiniteo.png',
   },
 };
 
