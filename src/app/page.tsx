@@ -120,7 +120,7 @@ export default function HomePage() {
             </div>
             <div>
               <Image
-                src="/infiniteo.org/Escape Operational Drudgery123.jpg"
+                src="/Escape Operational Drudgery123.jpg"
                 alt="Illustration of escaping operational drudgery through automation"
                 width={600}
                 height={400}
