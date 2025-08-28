@@ -84,7 +84,7 @@ export default function Header() {
                   <div className="flex justify-between items-center mb-8">
                     <Link href="/" onClick={() => setIsMobileMenuOpen(false)} aria-label="Infiniteo Home">
                       <Image
-                        src="/infiniteo.png"
+                        src="main/infiniteo.png"
                         alt="Infiniteo Logo"
                         width={128}
                         height={32}
