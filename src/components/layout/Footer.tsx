@@ -43,7 +43,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Link href="/" aria-label="Infiniteo Home" className="focus-visible:ring-0 focus-visible:outline-none inline-block">
               <Image
-                src="/infiniteo.org/infiniteo.png" 
+                src="/infiniteo.png" 
                 alt="Infiniteo Logo"
                 width={150}
                 height={37}
