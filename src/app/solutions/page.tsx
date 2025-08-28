@@ -24,7 +24,7 @@ const solutions = [
       'Analyze performance with integrated reporting setups.',
     ],
     targetRoles: 'Marketing Managers, Social Media Specialists, Content Creators, Digital Agencies',
-    image: '/infiniteo.org/Marketing Managers.png',
+    image: '/Marketing Managers.png',
     imageHint: 'social media dashboard'
   },
   {
@@ -40,7 +40,7 @@ const solutions = [
       'Streamline data processes and eradicate bottlenecks.'
     ],
     targetRoles: 'Operations Leads, Sales Managers, CRM Administrators, E-commerce Managers',
-    image: '/infiniteo.org/Drudgery.png',
+    image: '/Drudgery.png',
     imageHint: 'CRM data flow'
   },
   {
@@ -56,7 +56,7 @@ const solutions = [
       'Benefit from solutions built by experts, requiring no coding expertise from your team.'
     ],
     targetRoles: 'Operations Managers, IT Directors, Business Analysts, Freelancers, Consultants',
-    image: '/infiniteo.org/Drudgery.png',
+    image: '/Drudgery.png',
     imageHint: 'workflow automation'
   },
 ];
