@@ -24,8 +24,8 @@ export default function Icon() {
         <img 
             src="https://infiniteo.org/infiniteo.png" 
             alt="Infiniteo Logo"
-            width={32}
-            height={32}
+            width={38}
+            height={38}
         />
       </div>
     ),
