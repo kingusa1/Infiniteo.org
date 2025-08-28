@@ -56,7 +56,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-full">
           <Link href="/" aria-label="Infiniteo Home" className="focus-visible:ring-0 focus-visible:outline-none inline-block">
             <Image
-              src="/infiniteo.png"
+              src="/infiniteo.org/infiniteo.png"
               alt="Infiniteo Logo"
               width={150}
               height={37}
