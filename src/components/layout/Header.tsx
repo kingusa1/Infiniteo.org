@@ -56,7 +56,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-full">
           <Link href="/" aria-label="Infiniteo Home" className="focus-visible:ring-0 focus-visible:outline-none inline-block">
             <Image
-              src="/infiniteo.org/infiniteo.png"
+              src="/infiniteo.png"
               alt="Infiniteo Logo"
               width={150}
               height={37}
@@ -84,7 +84,7 @@ export default function Header() {
                   <div className="flex justify-between items-center mb-8">
                     <Link href="/" onClick={() => setIsMobileMenuOpen(false)} aria-label="Infiniteo Home">
                       <Image
-                        src="/infiniteo.org/infiniteo.png"
+                        src="/infiniteo.png"
                         alt="Infiniteo Logo"
                         width={128}
                         height={32}
