@@ -53,7 +53,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className="md:order-2">
               <Image
-                src="/infiniteo.org/Our Vision.png"
+                src="/Our Vision.png"
                 alt="Our vision and mission illustrated"
                 width={600}
                 height={450}
