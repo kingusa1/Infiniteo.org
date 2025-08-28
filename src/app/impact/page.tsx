@@ -23,7 +23,7 @@ const impactStories = [
       "Streamlined lead capture from platforms like LinkedIn to Instagram.",
       "Data-driven insights for strategic decision-making."
     ],
-    image: "/Marketing Managers123.png",
+    image: "/infiniteo.org/Marketing Managers123.png",
     imageHint: "marketing dashboard"
   },
   {
@@ -38,7 +38,7 @@ const impactStories = [
       "Accelerated data processes and bottleneck elimination.",
       "Greater agility to adapt to changing business demands."
     ],
-    image: "/Operations Leads.jpg",
+    image: "/infiniteo.org/Operations Leads.jpg",
     imageHint: "operations workflow"
   },
    {
@@ -52,7 +52,7 @@ const impactStories = [
       "Ensure consistency and accuracy in personal workflows.",
       "Seamlessly connect and orchestrate personal productivity tools through our services."
     ],
-    image: "/Business Professionals.jpg",
+    image: "/infiniteo.org/Business Professionals.jpg",
     imageHint: "professional tools"
   }
 ];
