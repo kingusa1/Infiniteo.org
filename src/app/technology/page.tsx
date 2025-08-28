@@ -58,7 +58,7 @@ export default function TechnologyPage() {
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div>
               <Image
-                src="/infiniteo.org/Accessible Power, Sophisticated Performance.png"
+                src="/Accessible Power, Sophisticated Performance.png"
                 alt="Illustration of escaping operational drudgery through automation"
                 width={600}
                 height={450}
@@ -101,7 +101,7 @@ export default function TechnologyPage() {
 
         <section className="mt-12 md:mt-20 text-center">
           <Image
-              src="/infiniteo.org/Future-Proof Your Operations with Our Services.png"
+              src="/Future-Proof Your Operations with Our Services.png"
               alt="Illustration of future-proof operations"
               width={800}
               height={300}
