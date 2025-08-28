@@ -106,7 +106,7 @@
   }
   body {
     @apply bg-background text-foreground;
-    background-image: url('/video.gif');
+    background-image: url('/infiniteo.org/video.gif');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
