@@ -35,45 +35,11 @@ We believe every organization deserves the freedom to focus on strategic vision 
 -   **Platform-Agnostic Expertise:** Our solutions are flexible, integrating seamlessly with virtually any digital channel or existing software stack.
 -   **Unparalleled Reliability & Security:** We build workflows with enterprise-grade security and resilience, ensuring your critical processes run smoothly around the clock.
 
-## 🛠️ Built With
+## ⚖️ License & Copyright
 
-This project is built on a modern, robust, and scalable tech stack:
+**© 2024 Infiniteo Solutions. All Rights Reserved.**
 
--   [**Next.js**](https://nextjs.org/) - The React Framework for Production
--   [**React**](https://reactjs.org/) - A JavaScript library for building user interfaces
--   [**Tailwind CSS**](https://tailwindcss.com/) - A utility-first CSS framework
--   [**TypeScript**](https://www.typescriptlang.org/) - Typed JavaScript at Any Scale
--   [**ShadCN/UI**](https://ui.shadcn.com/) - Beautifully designed components
--   [**Genkit (for AI)**](https://firebase.google.com/docs/genkit) - The open source framework for building AI-powered apps
-
-## 📦 Getting Started
-
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-
--   Node.js (v18 or later)
--   npm or yarn
-
-### Installation & Setup
-
-1.  **Clone the repository:**
-    ```sh
-    git clone https://github.com/your-username/infiniteo.org.git
-    ```
-2.  **Navigate to the project directory:**
-    ```sh
-    cd infiniteo.org
-    ```
-3.  **Install NPM packages:**
-    ```sh
-    npm install
-    ```
-4.  **Run the development server:**
-    ```sh
-    npm run dev
-    ```
-5.  Open [http://localhost:9002](http://localhost:9002) with your browser to see the result.
+This repository and its contents are the proprietary property of Infiniteo Solutions. Unauthorized copying, cloning, modification, distribution, or use of this code, in whole or in part, is strictly prohibited without the express written permission of Infiniteo Solutions. This codebase is provided for demonstration purposes only.
 
 ---
 <p align="center">Empowering Business Evolution, Without Limits.</p>
